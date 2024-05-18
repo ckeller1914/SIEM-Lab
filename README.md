@@ -1,52 +1,71 @@
 # SIEM-Lab
 
-Create Azure Subscription
+## Objective
 
-Create Virtual Machine
+This is a brief overview of a SIEM home lab I created.
+In this lab we will create a honeypot, log the events,
+and display the results on a world map via Sentinel.
 
-![VM](https://github.com/ckeller1914/SIEM-Lab/assets/116524804/34e2e9f9-7e2a-494c-a08c-7a2a5937b81f)
+## Skills Learned
 
-Allow all in Firewall
+Network Security | Log management | SIEM Configuration and management | Threat Detection
 
+## Steps
 
+1) Create Azure Subscription
 
-Create Log Analytics Workspace
+ ![Screenshot (116)](https://github.com/ckeller1914/SIEM-Lab/assets/116524804/4df086b0-889c-464a-8b38-4a419320136c)
+  
 
-![CreateLogAnalytic](https://github.com/ckeller1914/SIEM-Lab/assets/116524804/a943c7cf-a98f-4261-a46d-ff4f70bec34c)
+2) Create Virtual Machine
 
-
-Enable gathering VM logs in Security Center
-
-![logSecurityCenter](https://github.com/ckeller1914/SIEM-Lab/assets/116524804/085c0a85-a3f3-4902-bf13-9b5dcd3a10da)
-
-
-Connect Log Analytics to VM
-
-![LogVMFR](https://github.com/ckeller1914/SIEM-Lab/assets/116524804/0b607657-37b5-4cd2-9b8d-f24c4c7f97d6)
+![VM](https://github.com/ckeller1914/SIEM-Lab/assets/116524804/160f38a4-f7bc-4f9c-829d-d752024af04d)
 
 
+3) Allow all in Security Group
 
-Setup Azure Sentinel
-
-![Sentinel](https://github.com/ckeller1914/SIEM-Lab/assets/116524804/7c555191-5f8c-457c-945a-adc5972bca93)
-
+![SecurityGroup](https://github.com/ckeller1914/SIEM-Lab/assets/116524804/a5a7b1c8-6b26-4efa-9781-5e0013b1611c)
 
 
-Log into VM with Remote Desktop 
+4) Create Log Analytics Workspace
+
+![CreateLogAnalytic](https://github.com/ckeller1914/SIEM-Lab/assets/116524804/b7fea80e-e983-4771-98d7-262503b38240)
+
+
+
+5) Enable gathering VM logs in Security Center
+
+![logSecurityCenter](https://github.com/ckeller1914/SIEM-Lab/assets/116524804/fbc8457e-d813-4f0f-8155-d8feaa415214)
+
+
+6) Connect Log Analytics to VM
+
+
+![LogVMFR](https://github.com/ckeller1914/SIEM-Lab/assets/116524804/5c2d9d55-9cf9-44e7-b8d4-e5501b7cb616)
+
+
+
+7) Setup Azure Sentinel
+
+![Sentinel](https://github.com/ckeller1914/SIEM-Lab/assets/116524804/ac303aab-e39c-42e7-be30-409be15e2866)
+
+
+8) Log into VM with Remote Desktop 
 
 ![remote](https://github.com/ckeller1914/SIEM-Lab/assets/116524804/2b1c9212-2e80-4f6a-b258-64c2ced76f52)
 
 
-1Observe Event Viewer Logs in VM
+9) Observe Event Viewer Logs in VM
 
 ![EventViewer](https://github.com/ckeller1914/SIEM-Lab/assets/116524804/4e119a16-9416-4585-ab41-cbdb7198f13a)
 
 
-![Event Veiwer 2](https://github.com/ckeller1914/SIEM-Lab/assets/116524804/13b65774-f350-4a60-9cfe-46a1bf097e16)
+![Event Veiwer 2](https://github.com/ckeller1914/SIEM-Lab/assets/116524804/42f49708-e7da-457e-914b-694840e235fd)
 
 
 
- Turn of Windows Firewall on VM
+
+ 10) Turn of Windows Firewall on VM
 
  ![firewall](https://github.com/ckeller1914/SIEM-Lab/assets/116524804/81b0581f-7e36-47e0-a619-6d697f1e2b51)
 
@@ -54,27 +73,34 @@ Log into VM with Remote Desktop
 ![Screenshot (104)](https://github.com/ckeller1914/SIEM-Lab/assets/116524804/e6d61fe9-4057-4f4b-a61d-1cec352dd477)
 
  
-Download PowerShell Script
+11) Download PowerShell Script
 
 ![PowerScript](https://github.com/ckeller1914/SIEM-Lab/assets/116524804/8498d122-ee71-49be-bb92-58aee5631683)
 
 
-Get Geolocation.io API Key
+12) Get Geolocation.io API Key
+
+![Screenshot (101)](https://github.com/ckeller1914/SIEM-Lab/assets/116524804/795c38ba-59f3-4a83-973e-8036f8d2ef05)
 
 
-
-Run Script To get Geo Data from attackers
+13) Run Script To get Geo Data from attackers
 
 ![Run Script](https://github.com/ckeller1914/SIEM-Lab/assets/116524804/f4e7caa5-c233-42ed-ba84-3bf8f2008dfb)
 
 
 
- Create custom log in LAW to bring in our custom log
- 
- Create custom fields/extract fields from raw custom log data
- 
-Testing Extracts
+14) Create custom log in LAW to bring in our custom log
 
-Setup map in sentinel with Latitude and Longitude (or country)
+    
+ ![CustomLog](https://github.com/ckeller1914/SIEM-Lab/assets/116524804/809d77d3-bc69-4983-9d17-f6fc5ef8f761)
+ 
 
-Fixing Map plot sizes
+15) Create custom fields/extract fields from raw custom log data
+ 
+16) Testing Extracts
+
+17) Setup map in sentinel with Latitude and Longitude (or country)
+
+18) Monitor honeypot activity over time
+
+
