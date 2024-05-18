@@ -96,11 +96,34 @@ Network Security | Log management | SIEM Configuration and management | Threat D
  
 
 15) Create custom fields/extract fields from raw custom log data
+
+    ![Screenshot (122)](https://github.com/ckeller1914/SIEM-Lab/assets/116524804/c8a53a9c-67c0-4cb3-90db-c298cecf9d74)
+
  
-16) Testing Extracts
+17) Testing Extracts
 
-17) Setup map in sentinel with Latitude and Longitude (or country)
+![Screenshot (123)](https://github.com/ckeller1914/SIEM-Lab/assets/116524804/efac444c-0164-4174-87e4-f664fc3167b3)
 
-18) Monitor honeypot activity over time
+18) Setup map in sentinel with Latitude and Longitude (or country)
+
+![Screenshot (126)](https://github.com/ckeller1914/SIEM-Lab/assets/116524804/740c1952-207c-4e87-8d5c-2fed75d0ad62)
 
 
+19) Monitor honeypot activity over time
+
+    -Hour 1
+
+![Screenshot (128)](https://github.com/ckeller1914/SIEM-Lab/assets/116524804/d472d704-afb2-4305-a574-e2c7aed6fc86)
+
+    -Hour 3
+
+    ![Screenshot (129)](https://github.com/ckeller1914/SIEM-Lab/assets/116524804/b953b11a-3dfa-405a-85a1-2fe54bf52359)
+
+    -Hour 7
+
+
+![Screenshot (130)](https://github.com/ckeller1914/SIEM-Lab/assets/116524804/ae6caf3e-793f-4531-9733-769578ceea77)
+
+    -Hour 15
+
+    ![Screenshot (135)](https://github.com/ckeller1914/SIEM-Lab/assets/116524804/0d5fed4d-eaab-4e7e-a924-9adee2f4e4f9)
