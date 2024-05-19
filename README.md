@@ -92,7 +92,7 @@
 
 ### 15) Create Custom Fields/Extract Fields from Raw Custom Log Data
 
-    ![Screenshot (122)](https://github.com/ckeller1914/SIEM-Lab/assets/116524804/c8a53a9c-67c0-4cb3-90db-c298cecf9d74)
+  ![Screenshot (122)](https://github.com/ckeller1914/SIEM-Lab/assets/116524804/c8a53a9c-67c0-4cb3-90db-c298cecf9d74)
 
  
 ### 16) Testing Extracts
@@ -112,7 +112,7 @@
 
    ### -Hour 3
 
-   ![Screenshot (129)](https://github.com/ckeller1914/SIEM-Lab/assets/116524804/b953b11a-3dfa-405a-85a1-2fe54bf52359)
+  ![Screenshot (129)](https://github.com/ckeller1914/SIEM-Lab/assets/116524804/b953b11a-3dfa-405a-85a1-2fe54bf52359)
 
    ### -Hour 7
 
