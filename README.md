@@ -112,7 +112,7 @@
 
    ### -Hour 3
 
-    ![Screenshot (129)](https://github.com/ckeller1914/SIEM-Lab/assets/116524804/b953b11a-3dfa-405a-85a1-2fe54bf52359)
+   ![Screenshot (129)](https://github.com/ckeller1914/SIEM-Lab/assets/116524804/b953b11a-3dfa-405a-85a1-2fe54bf52359)
 
    ### -Hour 7
 
